@@ -17,17 +17,17 @@ A versatile input component featuring:
 - Clearable button
 - Customizable styling via CSS classes
 
-![Text clearable](image.png)
+![Text clearable](screenshots/image.png)
 
-![Password unseen](image-1.png)
+![Password unseen](screenshots/image-1.png)
 
-![Password seen](image-2.png)
+![Password seen](screenshots/image-2.png)
 
-![Clearable password](image-3.png)
+![Clearable password](screenshots/image-3.png)
 
-![Number](image-5.png)
+![Number](screenshots/image-5.png)
 
-![Clearable Number](image-4.png)
+![Clearable Number](screenshots/image-4.png)
 
 ### Toast Notifications
 Flexible toast notification system with:
@@ -36,11 +36,11 @@ Flexible toast notification system with:
 - Bottom-right positioning!
 - Multiple toast types (success, error, info, etc.)
 
-![Info toast](image-6.png)
+![Info toast](screenshots/image-6.png)
 
-![Success toast](image-7.png)
+![Success toast](screenshots/image-7.png)
 
-![Not closable](image-8.png)
+![Not closable](screenshots/image-8.png)
 
 ### Sidebar Menu
 Responsive sidebar navigation with:
@@ -49,9 +49,9 @@ Responsive sidebar navigation with:
 - Overlay click to close
 - Customizable menu items
 
-![One level](image-9.png)
+![One level](screenshots/image-9.png)
 
-![Two level](image-10.png)
+![Two level](screenshots/image-10.png)
 
 ## Setup Instructions
 
