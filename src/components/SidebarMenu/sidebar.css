@@ -1,0 +1,72 @@
+/* Overlay (click to close) */
+.sidebar-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.2);
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.25s ease;
+  z-index: 999;
+}
+
+.sidebar-overlay-show {
+  opacity: 1;
+  visibility: visible;
+}
+
+/* Sidebar Panel */
+.sidebar {
+  position: fixed;
+  top: 0;
+  right: -320px;
+  width: 280px;
+  height: 100%;
+  background: #fff;
+  box-shadow: -4px 0 12px rgba(0,0,0,0.1);
+  padding: 20px;
+  transition: right 0.3s ease;
+  z-index: 1000;
+}
+
+.sidebar-open {
+  right: 0;
+}
+
+/* Menu list */
+.sidebar-list,
+.sidebar-sublist {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* Main item */
+.sidebar-item {
+  margin-bottom: 10px;
+}
+
+.sidebar-item-label {
+  padding: 10px;
+  background: #f4f4f4;
+  border-radius: 6px;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.sidebar-item-label:hover {
+  background: #eaeaea;
+}
+
+/* Submenu */
+.sidebar-sublist {
+  margin-top: 6px;
+  margin-left: 14px;
+  border-left: 2px solid #ddd;
+  padding-left: 10px;
+}
+
+.sidebar-sublist .sidebar-item-label {
+  background: #fafafa;
+}

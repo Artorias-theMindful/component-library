@@ -1,0 +1,37 @@
+.input-wrapper {
+  position: relative;
+  display: inline-block;
+}
+
+.input-field {
+  padding: 8px 32px 8px 10px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  width: 200px;
+  box-sizing: border-box;
+}
+
+.input-icon,
+.input-clear-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.input-icon {
+  right: 6px;
+}
+
+.input-icon-shift {
+  right: 26px;
+}
+
+.input-clear-btn {
+  right: 6px;
+  font-weight: bold;
+}
